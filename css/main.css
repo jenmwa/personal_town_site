@@ -1,0 +1,118 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+.act {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero-image {
+    background-image: url("https://karlstad.se/imagevault/publishedmedia/5k7ndjwyh7k1760q0xuh/sola_i_kallsta.jpg");
+    background-size:cover;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#hero-header {
+    color: #f1faee;
+    background: #457B9D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#hero-sub {
+    color: #f1faee;
+    background: #1d3557;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin: 0 10px;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    padding: 20px;
+    color: #1D3557;
+    text-align: center;
+}
+
+#act-head {
+    margin: 10px 0 30px 0;
+}
+
+.act-karlstad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.act-examples {
+    width: 200px;
+}
+
+
+
+p{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+#avatar {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.guide {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #A8DADC;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 5px;
+}
